@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+a,
+a:active {
+    color: $light-gray;
+    text-decoration: none;
+}
+
+.content-panel {
+    background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+    margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 1px;
+}
+
+.main-text {
+    text-align: center;
+    margin-top: 15px;
+    mix-blend-mode: multiply;
+}
+
+a,
+a:active {
+    color: $light-gray;
+}
+
+.menu-items {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+i {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: .7em;
+}

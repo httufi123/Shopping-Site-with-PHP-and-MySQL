@@ -1,0 +1,31 @@
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.categories__item {
+    height: 270px;
+    position: relative;
+}
+
+.resimKapsayici {
+    position: relative
+}
+
+.resimYazisi {
+    position: absolute;
+    padding-left: 25%;
+    top: 70%;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-top: 3%;
+    height: auto;
+}
